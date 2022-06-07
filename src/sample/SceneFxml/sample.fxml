@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controlers.Controller">
+   <children>
+      <AnchorPane layoutX="-9.0" layoutY="82.0" prefHeight="322.0" prefWidth="708.0" style="-fx-background-color: #5472AB;">
+         <children>
+            <Button fx:id="registrationButton" layoutX="196.0" layoutY="55.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="324.0" style="-fx-background-color: #75A5FF; -fx-background-radius: 15;" text="Зарегистрироваться" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="authorizationButton" layoutX="196.0" layoutY="114.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="324.0" style="-fx-background-color: #75A5FF; -fx-background-radius: 15;" text="Авторизироваться" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="viewingServices" layoutX="196.0" layoutY="172.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="324.0" style="-fx-background-color: #75A5FF; -fx-background-radius: 15;" text="Просмотр услуг" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="22.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="56.0" prefWidth="458.0" text="Ветеринарная клиника" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="40.0" />
+         </font>
+      </Label>
+      <Button fx:id="workerButton" layoutX="492.0" layoutY="24.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="193.0" style="-fx-background-color: #75A5FF; -fx-background-radius: 15;" text="Для работников" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
