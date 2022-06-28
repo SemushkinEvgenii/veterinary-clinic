@@ -29,11 +29,14 @@
 Сами окна приложение.
 
 ![image](https://user-images.githubusercontent.com/77569807/176252559-be5b4db5-ae60-4563-9372-f9ae9278fc73.png)
+
 Главное окно
 
 ![image](https://user-images.githubusercontent.com/77569807/176252591-332a22ed-c7c3-40f4-857b-338df48592ca.png)
+
 Окно регистрации
 
 ![image](https://user-images.githubusercontent.com/77569807/176252627-d404d091-c1ca-4389-91cf-085665843e4d.png)
+
 Окно таблицы из базы данных
 
